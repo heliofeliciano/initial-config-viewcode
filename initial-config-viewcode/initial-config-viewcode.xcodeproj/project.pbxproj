@@ -59,6 +59,7 @@
 		B881230529931E0500D13D64 /* initial-config-viewcode */ = {
 			isa = PBXGroup;
 			children = (
+				B881232D2993BFB800D13D64 /* Common */,
 				B88123262993977500D13D64 /* Login */,
 				B881230629931E0500D13D64 /* AppDelegate.swift */,
 				B881230829931E0500D13D64 /* SceneDelegate.swift */,
@@ -72,11 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				B88123272993978300D13D64 /* LoginViewController.swift */,
-				B88123242993976E00D13D64 /* StandardViewConfiguration.swift */,
 				B8812329299397A000D13D64 /* LoginView.swift */,
 				B881232B29939B5900D13D64 /* LoginProtocols.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B881232D2993BFB800D13D64 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B88123242993976E00D13D64 /* StandardViewConfiguration.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
